@@ -1,3 +1,19 @@
 {
-  "settingsInheritedFrom": "DimaMend/whitesource-config@main"
+  "settingsInheritedFrom": "DimaMend/whitesource-config@main",
+  "scanSettings": {
+    "enableReachability": true,
+    "exploitability": true
+  },
+  "checkRunSettings": {
+    "strictMode": "warning"
+  },
+  "scanSettingsSAST": {
+    "enableScan": "true",
+    "scanPullRequests": true
+  },
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    }
+  }
 }
